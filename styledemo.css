@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container h1,
+h3 {
+  color: aqua;
+  font-family: "Poppins", sans-serif;
+}
+
+.paragraph {
+  padding: 50px;
+  border: 2px rebeccapurple solid;
+  margin: 50px;
+  width: 50%;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    background-color: lightblue;
+  }
+}

@@ -1,0 +1,30 @@
+* {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.paragraphs{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    width: 30%;
+}
+
+img {
+    width: 200px;
+    height: 225px;
+    object-fit: cover;
+}
+
+h2 {
+    color: blue;
+}
+
+@media only screen and (max-width: 360px) {
+    body {
+      background-color: lightblue;
+    }
+  }
